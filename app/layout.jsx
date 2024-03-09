@@ -1,5 +1,6 @@
 import React from 'react'
 import '@/assets/styles/globals.css'
+import Navbar from '@/components/Navbar'
 
 export const metadata = {
     title: 'Opal | Organized Chaos',
@@ -11,10 +12,14 @@ export const metadata = {
 const MainLayout = ({ children }) => {
   return (
     <html lang='en'>
+      <head>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+      </head>
         <body>
-            <div>
+            <Navbar />
+            <main>
                 {children}
-            </div>
+            </main>
         </body>
     </html>
     
