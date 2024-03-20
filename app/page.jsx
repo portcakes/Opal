@@ -11,7 +11,7 @@ const HomePage = () => {
         <h1 className="text-3xl">Welcome to Opal</h1>
         <Link href="/about">About Opal</Link>
         <br />
-        <Link href="/"><i className="bi bi-yin-yang text-purple-500"></i></Link>
+        <Link href="/"><i className="bi bi-yin-yang text-purple-500 hover:text-cyan-400 text-2xl"></i></Link>
     </div>
   )
 }
